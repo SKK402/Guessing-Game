@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>🎲 Welcome to the Guessing Game! 🎉</h1>
+        <h2>Can You Guess The Hidden Number?</h2>
+        <p>Pick a number between <strong>1</strong> and <strong>100</strong>.</p>
+        <input type="number" id="inp" placeholder="Enter your number">
+        <button id="submit" class="btn">Guess!</button>
+        <p id="msg"></p>
+        <img id="celebrateGif" src="https://media.tenor.com/ZhlvZM9v5LwAAAAC/fireworks-explosion-show.gif" alt="celebration" style="display: none; width: 100%; border-radius: 10px;">
+        <p class="attempts-text">Attempts: <span id="Attempts">0</span></p>
+        <button id="resBtn" class="btn restart-btn" style="display: none;">Restart Again</button>
+    </div>
+    <footer>
+        <h6>🎨 Made by <strong>Som Kunar</strong> ❤️</h6>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

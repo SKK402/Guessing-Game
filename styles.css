@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #89cff0, #d1f7ff);
+    color: #333;
+}
+
+/* Container Styles */
+.container {
+    background-color: #ffffff;
+    border: 2px solid #007acc;
+    text-align: center;
+    width: 50%;
+    margin: 5% auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Heading Styles */
+.container h1 {
+    color: #007acc;
+    font-size: 2rem;
+}
+
+.container h2 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Input Field Styles */
+input[type="number"] {
+    width: 50%; /* Set width to 50% to make it smaller */
+    padding: 10px;
+    border: 2px solid #007acc;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 10px auto; /* Center the input field */
+    text-align: center;
+    display: block; /* Make it a block element to center it */
+}
+
+input[type="number"]:focus {
+    border-color: #005d99;
+    outline: none;
+    box-shadow: 0 0 10px #007acc;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    background: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #005d99;
+}
+
+/* Restart Button Styles */
+.restart-btn {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Message Styles */
+#msg {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.attempts-text {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+/* Success & Error Message Styles */
+#msg.success {
+    color: #28a745;
+    font-weight: bold;
+}
+
+#msg.error {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+/* Image Styling */
+img {
+    width: 80px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Celebration GIF Styling */
+#celebrateGif {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
