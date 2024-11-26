@@ -1,4 +1,5 @@
 Guessing Game 🎲
+
 Welcome to the Guessing Game! A fun interactive game where you try to guess the correct hidden number. The game gives you feedback on whether you’ve guessed too high or too low and provides an option to restart the game once you guess the correct number.
 
 Features ✨
