@@ -32,6 +32,7 @@ script.js - The JavaScript logic for the game’s functionality.
 Technology Used 💻
 HTML: For the structure and elements of the page.
 CSS: For styling the game interface.
+Javascipt:for interactive web
 JavaScript: For handling the logic, number guessing, and feedback.
 
 Author 🧑‍💻
